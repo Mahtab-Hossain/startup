@@ -16,3 +16,21 @@ body{
     margin: 10px 15px 10px 0;
     border-radius: 50px;
 }
+.navbar-brand{
+    padding-top: 35px;
+}
+.navbar-brand h1{
+    /* brand name */
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(124, 131, 231);
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
