@@ -34,3 +34,13 @@ body{
 .navbar-brand a:hover, .navbar-brand a:focus{
     text-decoration: none;
 }
+.navbar-brand p{
+    /*  */
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-size: .5em;
+    margin-top: 10px;
+}
+.navbar-brand p span{
+    vertical-align: middle;
+}
