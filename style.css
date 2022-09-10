@@ -6,6 +6,12 @@ body{
 }
 #header-nav{
     background-color: rgb(202, 231, 34);
-    border-radius: 5px;
+    border-radius: 15px;
     border: 0;
+}
+#logo-img{
+    background: url('/logo.jpg') no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
 }
