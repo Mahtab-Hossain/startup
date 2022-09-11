@@ -61,5 +61,5 @@ body{
 }
 #collapsable-nav{
     text-align: center;
-    float: center;
+    align-items: center;
 }
