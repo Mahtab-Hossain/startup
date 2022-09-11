@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First Page</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -27,12 +28,37 @@
                             <span> Star certified</span>
                         </p>
                     </div>
-                    <button type="button" class="navbar-collapse collapsed" data-bs-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-                        <span class="sr-only"> Toggle navigation </span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#collapsable-nav" aria-expanded="false"
+                    aria-controls="toggleMobileMenu"
+                    >
+                    <span class="navbar-toggler-icon"></span>
                     </button>
+                </div>
+                <div class="collaspe navbar-collapse" id="collapsable-nav">
+                    <ul id="nav-list" class="nav navbar-nav me-auto mb-2 mb-lg-0 float-end">
+                        <li>
+                            <a href="/menu.html">
+                                <span class="bi bi-list"></span><br class="d-none d-lg-block">
+                                Menu
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="bi bi-file-person">
+                                </span>
+                                <br class="d-none d-lg-block">
+                                About
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="bi bi-info"></span>
+                                <br class="d-none d-lg-block">
+                                contact us
+                            </a>
+                        </li>
+                    </ul>
+
                 </div>
             </div>
 

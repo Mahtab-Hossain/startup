@@ -44,3 +44,22 @@ body{
 .navbar-brand p span{
     vertical-align: middle;
 }
+#nav-list{
+    margin-top: 10px;
+    align-items: center;
+}
+#nav-list a{
+    color: brown;
+    text-align: center;
+    
+}
+#nav-list a:hover{
+    background: rgb(236, 124, 124);
+}
+#nav-list a span{
+    font-size: 1em;
+}
+#collapsable-nav{
+    text-align: center;
+    float: center;
+}
