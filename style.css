@@ -72,7 +72,12 @@ body{
 }
 /* media queries for large devices */
 @media(min-width: 1200px){
-
+    .home-page{
+        background: url('/home-page.png') no-repeat;
+        height: 675px;
+        box-shadow: 0 0 50px #ec3981;
+        border: 2px solid #3F0C1F;
+    }
 }
 /* media queries for medium devices */
 @media(min-width: 992px) and (max-width: 1199px){
@@ -117,5 +122,8 @@ body{
     }
     .navbar-brand p img{
         height: 17px;
+    }
+    #collapsable-nav a span{
+        margin-right: 5px;
     }
 }
