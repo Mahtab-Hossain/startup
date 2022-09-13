@@ -90,6 +90,12 @@ body{
 }
 /* media queries for small devices  */
 @media(min-width: 768px) and (max-width: 991px){
+    .home-page{
+        background: url('/home-page\(768\).png') no-repeat;
+        height: 675px;
+        box-shadow: 0 0 50px #ec3981;
+        border: 2px solid #3F0C1F;
+    }
     #logo-img{
         background: url('/rsz_logo.png') no-repeat;
         width: 50px;
