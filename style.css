@@ -75,8 +75,8 @@ body{
     .home-page{
         background: url('/home-page.png') no-repeat;
         height: 675px;
-        box-shadow: 0 0 50px #ec3981;
-        border: 2px solid #3F0C1F;
+        box-shadow: 50px 50px 50px #222;
+        border: 2px solid #3e5334c5;
     }
 }
 /* media queries for medium devices */
@@ -87,21 +87,28 @@ body{
         height: 50px;
         margin: 3px 3px 3px 0;
     }
+    .home-page{
+        background: url('/home-page\(992\).png') no-repeat;
+        height: 558px;
+        box-shadow: 50px 50px 50px #222;
+        border:  2px solid #3e5334c5;
+    }
+
 }
 /* media queries for small devices  */
 @media(min-width: 768px) and (max-width: 991px){
-    /* .home-page{
+    .home-page{
         background: url('/home-page\(768\).png') no-repeat;
-        height: 675px;
-        box-shadow: 0 0 50px #ec3981;
-        border: 2px solid #3F0C1F;
+        height: 432px;
+        box-shadow: 50px 50px 50px #222;
+        border: 2px solid #3e5334c5;
     }
     #logo-img{
         background: url('/rsz_logo.png') no-repeat;
         width: 50px;
         height: 50px;
         margin: 3px 3px 3px 0;
-    } */
+    }
 }
 /* media queries for extra small devices */
 @media(max-width: 767px){
@@ -132,4 +139,12 @@ body{
     #collapsable-nav a span{
         margin-right: 5px;
     }
+    /* homepage img start */
+    .container .home-page{
+        margin-top: 30px;
+        padding: 0;
+        box-shadow: 25px 25px 25px #222;
+        border: 2px solid #3e5334c5;
+    }
+    /* homepage img  end*/
 }
