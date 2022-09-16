@@ -90,7 +90,7 @@ body{
 }
 /* media queries for small devices  */
 @media(min-width: 768px) and (max-width: 991px){
-    .home-page{
+    /* .home-page{
         background: url('/home-page\(768\).png') no-repeat;
         height: 675px;
         box-shadow: 0 0 50px #ec3981;
@@ -101,7 +101,7 @@ body{
         width: 50px;
         height: 50px;
         margin: 3px 3px 3px 0;
-    }
+    } */
 }
 /* media queries for extra small devices */
 @media(max-width: 767px){
