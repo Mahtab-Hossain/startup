@@ -70,13 +70,30 @@ body{
     clear: both;
     margin-top: -30px;
 }
+.container .home-page{
+    box-shadow: 50px 50px 50px #222;
+    border: 2px solid #3e5334c5;
+}
+/* menu tiles style start*/
+#menu-tile, #special-tile, #mam-tile{
+    height: 250px;
+    width: 100;
+    margin-bottom: 10px;
+    position: relative;
+    border: 2px solid #3e5334c5;
+}
+#menu-tile:hover, #special-tile:hover, #mam-tile:hover{
+    box-shadow: 2px 3px 6px 3px #140707;
+}
+
+
 /* media queries for large devices */
 @media(min-width: 1200px){
-    .home-page{
+    .container .home-page{
         background: url('/home-page.png') no-repeat;
         height: 675px;
-        box-shadow: 0 0 50px #ec3981;
-        border: 2px solid #3F0C1F;
+        
+    
     }
 }
 /* media queries for medium devices */
@@ -87,14 +104,21 @@ body{
         height: 50px;
         margin: 3px 3px 3px 0;
     }
+    .container .home-page{
+        background: url('/home-page\(992\).png') no-repeat;
+        height: 558px;
+        
+     
+    }
+
 }
 /* media queries for small devices  */
 @media(min-width: 768px) and (max-width: 991px){
-    .home-page{
+    .container .home-page{
         background: url('/home-page\(768\).png') no-repeat;
-        height: 675px;
-        box-shadow: 0 0 50px #ec3981;
-        border: 2px solid #3F0C1F;
+        height: 432px;
+        
+    
     }
     #logo-img{
         background: url('/rsz_logo.png') no-repeat;
@@ -132,4 +156,12 @@ body{
     #collapsable-nav a span{
         margin-right: 5px;
     }
+    /* homepage img start */
+    .container .home-page{
+        margin-top: 30px;
+        padding: 0;
+        
+    
+    }
+    /* homepage img  end*/
 }
