@@ -74,6 +74,19 @@ body{
     box-shadow: 50px 50px 50px #222;
     border: 2px solid #3e5334c5;
 }
+/* menu tiles style start*/
+#menu-tile, #special-tile, #mam-tile{
+    height: 250px;
+    width: 100;
+    margin-bottom: 10px;
+    position: relative;
+    border: 2px solid #3e5334c5;
+}
+#menu-tile:hover, #special-tile:hover, #mam-tile:hover{
+    box-shadow: 2px 3px 6px 3px #140707;
+}
+
+
 /* media queries for large devices */
 @media(min-width: 1200px){
     .container .home-page{
