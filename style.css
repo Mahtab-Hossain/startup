@@ -75,14 +75,14 @@ body{
     border: 2px solid #3e5334c5;
 }
 /* menu tiles style start*/
-#menu-tile, #special-tile, #mam-tile{
+#menu-tile, #special-tile, #map-tile{
     height: 250px;
     width: 100;
     margin-bottom: 10px;
     position: relative;
     border: 2px solid #3e5334c5;
 }
-#menu-tile:hover, #special-tile:hover, #mam-tile:hover{
+#menu-tile:hover, #special-tile:hover, #map-tile:hover{
     box-shadow: 2px 3px 6px 3px #140707;
 }
 
