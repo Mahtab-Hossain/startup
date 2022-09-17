@@ -91,14 +91,18 @@ body{
     background: url('/bci1.jpg') no-repeat;
     background-position: center;
 }
-#
+#special-tile{
+    background: url('/bci2.jpg') no-repeat;
+    background-position: center;
+}
 
 /* media queries for large devices */
 @media(min-width: 1200px){
     .container .home-page{
-        
+        background: url('/home-page.png') no-repeat;
+        height: 675px;
+    
     }
-     
 }
 /* media queries for medium devices */
 @media(min-width: 992px) and (max-width: 1199px){
