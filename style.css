@@ -220,12 +220,14 @@ body{
     font-size: 1.1em;
 }
 #address p{
-    color: #667c3e;
+    color: #545e42;
     font-size: 0.6em;
     line-height: 1.5;
 }
 #user-review{
     font-style: italic;
 }
-
+#user-review p:nth-child(2){
+    margin-top: 25px;
+}
 /* footer section end */
