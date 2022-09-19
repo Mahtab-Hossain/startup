@@ -202,3 +202,32 @@ body{
         margin: 0 auto 15px;
     }
 }
+/* footer section start */
+.card-footer{
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+}
+.card-footer div.row{
+    margin-bottom: 35px;
+}
+#hours, #address{
+    line-height: 2;
+}
+#hours > span, #address > span{
+    font-size: 1.1em;
+}
+#address p{
+    color: #a8f31d;
+    font-size: 0.6em;
+    line-height: 1.5;
+}
+#user-review{
+    font-style: italic;
+}
+#user-review p:nth-child(2){
+    margin-top: 25px;
+}
+/* footer section end */
