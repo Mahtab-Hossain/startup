@@ -216,6 +216,16 @@ body{
 #hours, #address{
     line-height: 2;
 }
-
+#hours > span, #address > span{
+    font-size: 1.1em;
+}
+#address p{
+    color: #667c3e;
+    font-size: 0.6em;
+    line-height: 1.5;
+}
+#user-review{
+    font-style: italic;
+}
 
 /* footer section end */
